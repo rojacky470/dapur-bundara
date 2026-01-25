@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Dapur Bundara - Kue Tradisional Indonesia Premium</title>
+    <meta name="description" content="Jual kue tradisional Indonesia premium: Nastar, Klepon, Lapis Legit, Putri Salju, Kastengel. Resep autentik turun-temurun, bahan berkualitas tinggi." />
+    <meta name="keywords" content="kue tradisional, kue Indonesia, nastar, klepon, lapis legit, putri salju, kastengel, kue lebaran" />
+    <meta name="author" content="Toko Dapur Bundara" />
+
+    <meta property="og:title" content="Toko Dapur Bundara - Kue Tradisional Indonesia Premium" />
+    <meta property="og:description" content="Nikmati kelezatan kue tradisional Indonesia yang dibuat dengan resep warisan keluarga dan bahan berkualitas tinggi." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/hero-banner.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Toko Dapur Bundara - Kue Tradisional Indonesia" />
+    <meta name="twitter:image" content="/images/hero-banner.jpg" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    
+    <script>
+      // Prevent dark mode flash on page load
+      (function() {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
