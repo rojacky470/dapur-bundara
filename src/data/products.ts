@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: "Kue Semprit",
     price: 55000,
     description:
-      "renyah dan rasa manis lembut yang lumer di mulut, 500 gram Kmeasan Toples !.",
+      "renyah dan rasa manis lembut yang lumer di mulut, 500 gram Kemasan Toples !.",
     image: "/images/4.png",
     category: "Kue kering",
   },
