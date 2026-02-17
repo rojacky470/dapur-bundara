@@ -9,14 +9,17 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
+  // ===== STATE =====
   const [quantity, setQuantity] = useState(1);
   const [isAdding, setIsAdding] = useState(false);
+  const [expanded, setExpanded] = useState(false); // 🔥 EXPAND DESCRIPTION
   const { addToCart } = useCart();
 
+  // ===== FUNCTION =====
   const handleAddToCart = () => {
     setIsAdding(true);
     addToCart(product, quantity);
-    
+
     setTimeout(() => {
       setIsAdding(false);
       setQuantity(1);
@@ -26,15 +29,18 @@ export default function ProductCard({ product }: ProductCardProps) {
   const incrementQuantity = () => setQuantity((prev) => prev + 1);
   const decrementQuantity = () => setQuantity((prev) => Math.max(1, prev - 1));
 
+  // ===== UI =====
   return (
     <div className="group bg-card rounded-2xl overflow-hidden card-hover">
-      {/* Image */}
+      
+      {/* IMAGE */}
       <div className="relative aspect-square overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
+
         {product.category && (
           <span className="absolute top-3 left-3 px-3 py-1 bg-background/90 backdrop-blur-sm text-xs font-medium rounded-full">
             {product.category}
@@ -42,40 +48,60 @@ export default function ProductCard({ product }: ProductCardProps) {
         )}
       </div>
 
-      {/* Content */}
+      {/* CONTENT */}
       <div className="p-4 md:p-5">
+        
+        {/* NAME */}
         <h3 className="font-display text-lg md:text-xl font-semibold text-card-foreground mb-1">
           {product.name}
         </h3>
-        <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+
+        {/* 🔥 DESCRIPTION EXPAND */}
+        <p
+          className={`text-sm text-muted-foreground ${
+            expanded ? "" : "line-clamp-2"
+          }`}
+        >
           {product.description}
         </p>
-        <p className="text-lg md:text-xl font-bold text-primary mb-4">
+
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="text-xs text-primary mt-1 hover:underline"
+        >
+          {expanded ? "Tutup deskripsi" : "Baca selengkapnya"}
+        </button>
+
+        {/* PRICE */}
+        <p className="text-lg md:text-xl font-bold text-primary mb-4 mt-2">
           {formatPrice(product.price)}
         </p>
 
-        {/* Quantity & Add to Cart */}
+        {/* QUANTITY & CART */}
         <div className="flex items-center gap-3">
-          {/* Quantity Selector */}
+          
+          {/* QUANTITY */}
           <div className="flex items-center border border-border rounded-xl overflow-hidden">
             <button
               onClick={decrementQuantity}
               className="p-2 hover:bg-secondary transition-colors"
-              aria-label="Decrease quantity"
             >
               <Minus className="w-4 h-4" />
             </button>
-            <span className="w-10 text-center font-medium">{quantity}</span>
+
+            <span className="w-10 text-center font-medium">
+              {quantity}
+            </span>
+
             <button
               onClick={incrementQuantity}
               className="p-2 hover:bg-secondary transition-colors"
-              aria-label="Increase quantity"
             >
               <Plus className="w-4 h-4" />
             </button>
           </div>
 
-          {/* Add to Cart Button */}
+          {/* ADD TO CART */}
           <button
             onClick={handleAddToCart}
             disabled={isAdding}

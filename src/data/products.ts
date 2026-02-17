@@ -6,7 +6,7 @@ export const products: Product[] = [
     name: "Kue Red velved",
     price: 55000,
     description:
-      "Aneka rasa Red velved, 500 gram!",
+      "Aneka rasa Red velved, 500 gram Kemasan toples!",
     image: "/images/1.png",
     category: "Kue Kering",
   },
@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Kue Red velved",
     price: 30000,
     description:
-      "Aneka rasa Red velved ,250 gram!",
+      "Aneka rasa Red velved ,250 gram Kemasan toples!",
     image: "/images/1.png",
     category: "Kue Kering",
   },
@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: "Kue Kastengel",
     price: 65000,
     description:
-      "Kue Kastengel Gurih dan Manis legit, 500 gram!",
+      "Kue Kastengel Gurih dan Manis legit, 500 gram  Kemasan Toples !",
     image: "/images/2.png",
     category: "Kue kering",
   },
@@ -33,7 +33,7 @@ export const products: Product[] = [
    name: "Kue Kastengel",
     price: 35000,
     description:
-      "Kue Kastengel Gurih dan Manis legit, 250 gram!",
+      "Kue Kastengel Gurih dan Manis legit, 250 gram Kemasan Toples !",
     image: "/images/2.png",
     category: "Kue kering",
   },
@@ -42,7 +42,7 @@ export const products: Product[] = [
     name: "Kue Klepon cookie",
     price: 55000,
     description:
-      "isian gula merah lumer, dan taburan kelapa gurih, 500 gram",
+      "isian gula merah lumer, dan taburan kelapa gurih, 500 gram Kemasan Toples !",
     image: "/images/3.png",
     category: "Kue Kering",
   },
@@ -51,7 +51,7 @@ export const products: Product[] = [
      name: "Kue Klepon cookie",
     price: 30000,
     description:
-      "isian gula merah lumer, dan taburan kelapa gurih, 250 gram",
+      "isian gula merah lumer, dan taburan kelapa gurih, 250 gram Kemasan Toples !",
     image: "/images/3.png",
     category: "Kue Kering",
   },
@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: "Kue Semprit",
     price: 55000,
     description:
-      "renyah dan rasa manis lembut yang lumer di mulut, 500 gram.",
+      "renyah dan rasa manis lembut yang lumer di mulut, 500 gram Kmeasan Toples !.",
     image: "/images/4.png",
     category: "Kue kering",
   },
@@ -69,7 +69,7 @@ export const products: Product[] = [
      name: "Kue Semprit",
     price: 30000,
     description:
-      "renyah dan rasa manis lembut yang lumer di mulut, 250 gram.",
+      "renyah dan rasa manis lembut yang lumer di mulut, 250 gram Kemasan Toples !.",
     image: "/images/4.png",
     category: "Kue kering",
   },
@@ -96,7 +96,7 @@ export const products: Product[] = [
     name: "Kue Sagu keju",
     price: 65000,
     description:
-      "kue kering lembut dan lumer dan rasa keju gurih,Ringan ,500 gram.",
+      "kue kering lembut dan lumer dan rasa keju gurih,Ringan ,500 gram Kemasan Toples !.",
     image: "/images/5.png",
     category: "Kue kering",
   },
@@ -105,7 +105,7 @@ export const products: Product[] = [
     name: "Kue Sagu keju",
     price: 35000,
     description:
-      "kue kering lembut dan lumer dan rasa keju gurih,Ringan ,250 gram.",
+      "kue kering lembut dan lumer dan rasa keju gurih,Ringan ,250 gram Kemasan Toples !.",
     image: "/images/5.png",
     category: "Kue kering",
   },
@@ -114,7 +114,7 @@ export const products: Product[] = [
     name: "Kue Nastar",
     price: 65000,
     description:
-      "kue kering klasik ,lembut dan legit, 500 gram.",
+      "kue kering klasik ,lembut dan legit, 500 gram Kemasan Toples !.",
     image: "/images/7.png",
     category: "Kue kering",
   },
@@ -123,7 +123,7 @@ export const products: Product[] = [
     name: "Kue Nastar",
     price: 35000,
     description:
-      "kue kering klasik ,lembut dan legit, 250 gram.",
+      "kue kering klasik ,lembut dan legit, 250 gram Kemasan Toples !.",
     image: "/images/7.png",
     category: "Kue kering",
   },
@@ -132,7 +132,7 @@ export const products: Product[] = [
     name: "Kue Tumbprin",
     price: 55000,
     description:
-      "kue kering lembut dengan cekungan cantik berisi selai manis, 500 gram.",
+      "kue kering lembut dengan cekungan cantik berisi selai manis, 500 gram Kemasan Toples !.",
     image: "/images/6.png",
     category: "Kue kering",
   },
@@ -141,7 +141,7 @@ export const products: Product[] = [
     name: "Kue Tumbprin",
     price: 30000,
     description:
-      "kue kering lembut dengan cekungan cantik berisi selai manis, 250 gram.",
+      "kue kering lembut dengan cekungan cantik berisi selai manis, 250 gram Kemasan Toples !.",
     image: "/images/6.png",
     category: "Kue kering",
   },
