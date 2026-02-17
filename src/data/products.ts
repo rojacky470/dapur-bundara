@@ -44,7 +44,7 @@ export const products: Product[] = [
     description:
       "isian gula merah lumer, dan taburan kelapa gurih, 500 gram Kemasan Toples !",
     image: "/images/3.png",
-    category: "Kue Kering",
+    category: "Kue Basah",
   },
   {
     id: "6",
@@ -53,7 +53,7 @@ export const products: Product[] = [
     description:
       "isian gula merah lumer, dan taburan kelapa gurih, 250 gram Kemasan Toples !",
     image: "/images/3.png",
-    category: "Kue Kering",
+    category: "Kue Basah",
   },
   {
     id: "7",
