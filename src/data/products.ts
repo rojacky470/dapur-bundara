@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: "Kue Kastengel",
     price: 65000,
     description:
-      "Kue Kastengel Gurih dan Manis legit, 500 gram  Kemasan Toples !",
+      "Kue Kastengel Gurih dan asin keju edam, 500 gram  Kemasan Toples !",
     image: "/images/2.png",
     category: "Kue kering",
   },
@@ -33,7 +33,7 @@ export const products: Product[] = [
    name: "Kue Kastengel",
     price: 35000,
     description:
-      "Kue Kastengel Gurih dan Manis legit, 250 gram Kemasan Toples !",
+      "Kue Kastengel Gurih dan asin keju edam, 250 gram Kemasan Toples !",
     image: "/images/2.png",
     category: "Kue kering",
   },
@@ -128,21 +128,39 @@ export const products: Product[] = [
     category: "Kue kering",
   },
    {
-    id: "14",
+    id: "15",
     name: "Kue Tumbprin",
     price: 55000,
     description:
-      "kue kering lembut dengan cekungan cantik berisi selai manis, 500 gram Kemasan Toples !.",
+      "kue kering lembut dengan cekungan cantik berisi selai manis strawberry, 500 gram Kemasan Toples !.",
     image: "/images/6.png",
     category: "Kue kering",
   },
    {
-    id: "14",
+    id: "16",
     name: "Kue Tumbprin",
     price: 30000,
     description:
-      "kue kering lembut dengan cekungan cantik berisi selai manis, 250 gram Kemasan Toples !.",
+      "kue kering lembut dengan cekungan cantik berisi selai manis strawberry, 250 gram Kemasan Toples !.",
     image: "/images/6.png",
+    category: "Kue kering",
+  },
+   {
+    id: "17",
+    name: "Kue Putri Salju Edam",
+    price: 30000,
+    description:
+      "kue kering lembut, renyah keju edam di taburi gula halus, 250 gram Kemasan Toples !.",
+    image: "/images/10.png",
+    category: "Kue kering",
+  },
+  {
+    id: "18",
+    name: "Kue Putri Salju Edam",
+    price: 55000,
+    description:
+      "kue kering lembut, renyah keju edam di taburi gula halus, 500 gram Kemasan Toples !.",
+    image: "/images/10.png",
     category: "Kue kering",
   },
 ];
